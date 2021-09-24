@@ -171,7 +171,7 @@ const wordsCount = [
 function howManyTimes(array, wordToSearch) {
   if (array.length === 0) {return 0}; 
   let count = 0;
-  for (word of array) {
+  for (let word of array) {
     if (word === wordToSearch) {
       count++;
     }
